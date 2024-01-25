@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90610862B631ED500EE61D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610852B631ED500EE61D2 /* AppDelegate.swift */; };
+		A90610882B631ED500EE61D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610872B631ED500EE61D2 /* SceneDelegate.swift */; };
+		A906108A2B631ED500EE61D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610892B631ED500EE61D2 /* ViewController.swift */; };
+		A906108D2B631ED500EE61D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A906108B2B631ED500EE61D2 /* Main.storyboard */; };
+		A90610902B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A906108E2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld */; };
+		A90610922B631ED700EE61D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90610912B631ED700EE61D2 /* Assets.xcassets */; };
+		A90610952B631ED700EE61D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90610932B631ED700EE61D2 /* LaunchScreen.storyboard */; };
+		A90610A02B631ED700EE61D2 /* RetoSoftekMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A906109F2B631ED700EE61D2 /* RetoSoftekMoviesTests.swift */; };
+		A90610AA2B631ED700EE61D2 /* RetoSoftekMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610A92B631ED700EE61D2 /* RetoSoftekMoviesUITests.swift */; };
+		A90610AC2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610AB2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A906109C2B631ED700EE61D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A906107A2B631ED500EE61D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90610812B631ED500EE61D2;
+			remoteInfo = RetoSoftekMovies;
+		};
+		A90610A62B631ED700EE61D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A906107A2B631ED500EE61D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90610812B631ED500EE61D2;
+			remoteInfo = RetoSoftekMovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A90610822B631ED500EE61D2 /* RetoSoftekMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoSoftekMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90610852B631ED500EE61D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A90610872B631ED500EE61D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A90610892B631ED500EE61D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A906108C2B631ED500EE61D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A906108F2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RetoSoftekMovies.xcdatamodel; sourceTree = "<group>"; };
+		A90610912B631ED700EE61D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A90610942B631ED700EE61D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A90610962B631ED700EE61D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A906109B2B631ED700EE61D2 /* RetoSoftekMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoSoftekMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A906109F2B631ED700EE61D2 /* RetoSoftekMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoSoftekMoviesTests.swift; sourceTree = "<group>"; };
+		A90610A52B631ED700EE61D2 /* RetoSoftekMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoSoftekMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90610A92B631ED700EE61D2 /* RetoSoftekMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoSoftekMoviesUITests.swift; sourceTree = "<group>"; };
+		A90610AB2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoSoftekMoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A906107F2B631ED500EE61D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90610982B631ED700EE61D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90610A22B631ED700EE61D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A90610792B631ED500EE61D2 = {
+			isa = PBXGroup;
+			children = (
+				A90610842B631ED500EE61D2 /* RetoSoftekMovies */,
+				A906109E2B631ED700EE61D2 /* RetoSoftekMoviesTests */,
+				A90610A82B631ED700EE61D2 /* RetoSoftekMoviesUITests */,
+				A90610832B631ED500EE61D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A90610832B631ED500EE61D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A90610822B631ED500EE61D2 /* RetoSoftekMovies.app */,
+				A906109B2B631ED700EE61D2 /* RetoSoftekMoviesTests.xctest */,
+				A90610A52B631ED700EE61D2 /* RetoSoftekMoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A90610842B631ED500EE61D2 /* RetoSoftekMovies */ = {
+			isa = PBXGroup;
+			children = (
+				A90610852B631ED500EE61D2 /* AppDelegate.swift */,
+				A90610872B631ED500EE61D2 /* SceneDelegate.swift */,
+				A90610892B631ED500EE61D2 /* ViewController.swift */,
+				A906108B2B631ED500EE61D2 /* Main.storyboard */,
+				A90610912B631ED700EE61D2 /* Assets.xcassets */,
+				A90610932B631ED700EE61D2 /* LaunchScreen.storyboard */,
+				A90610962B631ED700EE61D2 /* Info.plist */,
+				A906108E2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld */,
+			);
+			path = RetoSoftekMovies;
+			sourceTree = "<group>";
+		};
+		A906109E2B631ED700EE61D2 /* RetoSoftekMoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A906109F2B631ED700EE61D2 /* RetoSoftekMoviesTests.swift */,
+			);
+			path = RetoSoftekMoviesTests;
+			sourceTree = "<group>";
+		};
+		A90610A82B631ED700EE61D2 /* RetoSoftekMoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A90610A92B631ED700EE61D2 /* RetoSoftekMoviesUITests.swift */,
+				A90610AB2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift */,
+			);
+			path = RetoSoftekMoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A90610812B631ED500EE61D2 /* RetoSoftekMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90610AF2B631ED700EE61D2 /* Build configuration list for PBXNativeTarget "RetoSoftekMovies" */;
+			buildPhases = (
+				A906107E2B631ED500EE61D2 /* Sources */,
+				A906107F2B631ED500EE61D2 /* Frameworks */,
+				A90610802B631ED500EE61D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetoSoftekMovies;
+			productName = RetoSoftekMovies;
+			productReference = A90610822B631ED500EE61D2 /* RetoSoftekMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A906109A2B631ED700EE61D2 /* RetoSoftekMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90610B22B631ED700EE61D2 /* Build configuration list for PBXNativeTarget "RetoSoftekMoviesTests" */;
+			buildPhases = (
+				A90610972B631ED700EE61D2 /* Sources */,
+				A90610982B631ED700EE61D2 /* Frameworks */,
+				A90610992B631ED700EE61D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A906109D2B631ED700EE61D2 /* PBXTargetDependency */,
+			);
+			name = RetoSoftekMoviesTests;
+			productName = RetoSoftekMoviesTests;
+			productReference = A906109B2B631ED700EE61D2 /* RetoSoftekMoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A90610A42B631ED700EE61D2 /* RetoSoftekMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90610B52B631ED700EE61D2 /* Build configuration list for PBXNativeTarget "RetoSoftekMoviesUITests" */;
+			buildPhases = (
+				A90610A12B631ED700EE61D2 /* Sources */,
+				A90610A22B631ED700EE61D2 /* Frameworks */,
+				A90610A32B631ED700EE61D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90610A72B631ED700EE61D2 /* PBXTargetDependency */,
+			);
+			name = RetoSoftekMoviesUITests;
+			productName = RetoSoftekMoviesUITests;
+			productReference = A90610A52B631ED700EE61D2 /* RetoSoftekMoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A906107A2B631ED500EE61D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A90610812B631ED500EE61D2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A906109A2B631ED700EE61D2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A90610812B631ED500EE61D2;
+					};
+					A90610A42B631ED700EE61D2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A90610812B631ED500EE61D2;
+					};
+				};
+			};
+			buildConfigurationList = A906107D2B631ED500EE61D2 /* Build configuration list for PBXProject "RetoSoftekMovies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A90610792B631ED500EE61D2;
+			productRefGroup = A90610832B631ED500EE61D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A90610812B631ED500EE61D2 /* RetoSoftekMovies */,
+				A906109A2B631ED700EE61D2 /* RetoSoftekMoviesTests */,
+				A90610A42B631ED700EE61D2 /* RetoSoftekMoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90610802B631ED500EE61D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90610952B631ED700EE61D2 /* LaunchScreen.storyboard in Resources */,
+				A90610922B631ED700EE61D2 /* Assets.xcassets in Resources */,
+				A906108D2B631ED500EE61D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90610992B631ED700EE61D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90610A32B631ED700EE61D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A906107E2B631ED500EE61D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A906108A2B631ED500EE61D2 /* ViewController.swift in Sources */,
+				A90610862B631ED500EE61D2 /* AppDelegate.swift in Sources */,
+				A90610902B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld in Sources */,
+				A90610882B631ED500EE61D2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90610972B631ED700EE61D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90610A02B631ED700EE61D2 /* RetoSoftekMoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90610A12B631ED700EE61D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90610AA2B631ED700EE61D2 /* RetoSoftekMoviesUITests.swift in Sources */,
+				A90610AC2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A906109D2B631ED700EE61D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90610812B631ED500EE61D2 /* RetoSoftekMovies */;
+			targetProxy = A906109C2B631ED700EE61D2 /* PBXContainerItemProxy */;
+		};
+		A90610A72B631ED700EE61D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90610812B631ED500EE61D2 /* RetoSoftekMovies */;
+			targetProxy = A90610A62B631ED700EE61D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A906108B2B631ED500EE61D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A906108C2B631ED500EE61D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A90610932B631ED700EE61D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90610942B631ED700EE61D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A90610AD2B631ED700EE61D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A90610AE2B631ED700EE61D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90610B02B631ED700EE61D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EF4CYZ897F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetoSoftekMovies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marco.example.RetoSoftekMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90610B12B631ED700EE61D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EF4CYZ897F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetoSoftekMovies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marco.example.RetoSoftekMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A90610B32B631ED700EE61D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EF4CYZ897F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marco.example.RetoSoftekMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetoSoftekMovies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetoSoftekMovies";
+			};
+			name = Debug;
+		};
+		A90610B42B631ED700EE61D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EF4CYZ897F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marco.example.RetoSoftekMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetoSoftekMovies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetoSoftekMovies";
+			};
+			name = Release;
+		};
+		A90610B62B631ED700EE61D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EF4CYZ897F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marco.example.RetoSoftekMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetoSoftekMovies;
+			};
+			name = Debug;
+		};
+		A90610B72B631ED700EE61D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EF4CYZ897F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marco.example.RetoSoftekMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetoSoftekMovies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A906107D2B631ED500EE61D2 /* Build configuration list for PBXProject "RetoSoftekMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90610AD2B631ED700EE61D2 /* Debug */,
+				A90610AE2B631ED700EE61D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90610AF2B631ED700EE61D2 /* Build configuration list for PBXNativeTarget "RetoSoftekMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90610B02B631ED700EE61D2 /* Debug */,
+				A90610B12B631ED700EE61D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90610B22B631ED700EE61D2 /* Build configuration list for PBXNativeTarget "RetoSoftekMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90610B32B631ED700EE61D2 /* Debug */,
+				A90610B42B631ED700EE61D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90610B52B631ED700EE61D2 /* Build configuration list for PBXNativeTarget "RetoSoftekMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90610B62B631ED700EE61D2 /* Debug */,
+				A90610B72B631ED700EE61D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A906108E2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A906108F2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodel */,
+			);
+			currentVersion = A906108F2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodel */;
+			path = RetoSoftekMovies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A906107A2B631ED500EE61D2 /* Project object */;
+}
