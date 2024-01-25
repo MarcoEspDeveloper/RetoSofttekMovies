@@ -17,6 +17,9 @@
 		A90610A02B631ED700EE61D2 /* RetoSoftekMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A906109F2B631ED700EE61D2 /* RetoSoftekMoviesTests.swift */; };
 		A90610AA2B631ED700EE61D2 /* RetoSoftekMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610A92B631ED700EE61D2 /* RetoSoftekMoviesUITests.swift */; };
 		A90610AC2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610AB2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift */; };
+		A90610BA2B63257F00EE61D2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A90610B92B63257F00EE61D2 /* Alamofire */; };
+		A90610BD2B63259C00EE61D2 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = A90610BC2B63259C00EE61D2 /* MBProgressHUD */; };
+		A90610C02B6325B300EE61D2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A90610BF2B6325B300EE61D2 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90610C02B6325B300EE61D2 /* Kingfisher in Frameworks */,
+				A90610BD2B63259C00EE61D2 /* MBProgressHUD in Frameworks */,
+				A90610BA2B63257F00EE61D2 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +152,11 @@
 			dependencies = (
 			);
 			name = RetoSoftekMovies;
+			packageProductDependencies = (
+				A90610B92B63257F00EE61D2 /* Alamofire */,
+				A90610BC2B63259C00EE61D2 /* MBProgressHUD */,
+				A90610BF2B6325B300EE61D2 /* Kingfisher */,
+			);
 			productName = RetoSoftekMovies;
 			productReference = A90610822B631ED500EE61D2 /* RetoSoftekMovies.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +229,11 @@
 				Base,
 			);
 			mainGroup = A90610792B631ED500EE61D2;
+			packageReferences = (
+				A90610B82B63257F00EE61D2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A90610BB2B63259C00EE61D2 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				A90610BE2B6325B300EE61D2 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A90610832B631ED500EE61D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -452,8 +468,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,8 +496,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -613,6 +627,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A90610B82B63257F00EE61D2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		A90610BB2B63259C00EE61D2 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		A90610BE2B6325B300EE61D2 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A90610B92B63257F00EE61D2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90610B82B63257F00EE61D2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A90610BC2B63259C00EE61D2 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90610BB2B63259C00EE61D2 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		A90610BF2B6325B300EE61D2 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90610BE2B6325B300EE61D2 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A906108E2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld */ = {
