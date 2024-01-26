@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A90610862B631ED500EE61D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610852B631ED500EE61D2 /* AppDelegate.swift */; };
 		A90610882B631ED500EE61D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610872B631ED500EE61D2 /* SceneDelegate.swift */; };
-		A906108A2B631ED500EE61D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610892B631ED500EE61D2 /* ViewController.swift */; };
+		A906108A2B631ED500EE61D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610892B631ED500EE61D2 /* LoginViewController.swift */; };
 		A906108D2B631ED500EE61D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A906108B2B631ED500EE61D2 /* Main.storyboard */; };
 		A90610902B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A906108E2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld */; };
 		A90610922B631ED700EE61D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90610912B631ED700EE61D2 /* Assets.xcassets */; };
@@ -17,6 +17,25 @@
 		A90610A02B631ED700EE61D2 /* RetoSoftekMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A906109F2B631ED700EE61D2 /* RetoSoftekMoviesTests.swift */; };
 		A90610AA2B631ED700EE61D2 /* RetoSoftekMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610A92B631ED700EE61D2 /* RetoSoftekMoviesUITests.swift */; };
 		A90610AC2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610AB2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift */; };
+		A90610BA2B63257F00EE61D2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A90610B92B63257F00EE61D2 /* Alamofire */; };
+		A90610BD2B63259C00EE61D2 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = A90610BC2B63259C00EE61D2 /* MBProgressHUD */; };
+		A90610C02B6325B300EE61D2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A90610BF2B6325B300EE61D2 /* Kingfisher */; };
+		A90610CA2B63389300EE61D2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610C92B63389300EE61D2 /* UserModel.swift */; };
+		A90610CE2B634B2700EE61D2 /* LoginViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610CD2B634B2700EE61D2 /* LoginViewProtocol.swift */; };
+		A90610D02B634C0600EE61D2 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610CF2B634C0600EE61D2 /* LoginInteractor.swift */; };
+		A90610D22B634C1100EE61D2 /* LoginInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610D12B634C1100EE61D2 /* LoginInteractorProtocol.swift */; };
+		A90610D52B634C8E00EE61D2 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610D42B634C8E00EE61D2 /* UserRequest.swift */; };
+		A90610D72B634D6D00EE61D2 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610D62B634D6D00EE61D2 /* LoginPresenter.swift */; };
+		A90610D92B634D7600EE61D2 /* LoginPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610D82B634D7600EE61D2 /* LoginPresenterProtocol.swift */; };
+		A90610DC2B634E0A00EE61D2 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610DB2B634E0A00EE61D2 /* LoginRouter.swift */; };
+		A90610DE2B634E1600EE61D2 /* LoginRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610DD2B634E1600EE61D2 /* LoginRouterProtocol.swift */; };
+		A90610E12B63500D00EE61D2 /* MoviesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610E02B63500D00EE61D2 /* MoviesAssembly.swift */; };
+		A90610E42B63511900EE61D2 /* Movies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90610E32B63511900EE61D2 /* Movies.storyboard */; };
+		A90610E82B6351FA00EE61D2 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610E72B6351FA00EE61D2 /* MoviesViewController.swift */; };
+		A90610EA2B6354DB00EE61D2 /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610E92B6354DB00EE61D2 /* LoginConfigurator.swift */; };
+		A90610ED2B6354FE00EE61D2 /* LoginConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610EC2B6354FE00EE61D2 /* LoginConfiguratorProtocol.swift */; };
+		A90610F32B63581400EE61D2 /* LoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610F22B63581400EE61D2 /* LoginAssembly.swift */; };
+		A98954832B641BB00048B954 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98954822B641BB00048B954 /* BaseNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +59,7 @@
 		A90610822B631ED500EE61D2 /* RetoSoftekMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoSoftekMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90610852B631ED500EE61D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A90610872B631ED500EE61D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A90610892B631ED500EE61D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A90610892B631ED500EE61D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A906108C2B631ED500EE61D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A906108F2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RetoSoftekMovies.xcdatamodel; sourceTree = "<group>"; };
 		A90610912B631ED700EE61D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +70,22 @@
 		A90610A52B631ED700EE61D2 /* RetoSoftekMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoSoftekMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90610A92B631ED700EE61D2 /* RetoSoftekMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoSoftekMoviesUITests.swift; sourceTree = "<group>"; };
 		A90610AB2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoSoftekMoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A90610C92B63389300EE61D2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A90610CD2B634B2700EE61D2 /* LoginViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewProtocol.swift; sourceTree = "<group>"; };
+		A90610CF2B634C0600EE61D2 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		A90610D12B634C1100EE61D2 /* LoginInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorProtocol.swift; sourceTree = "<group>"; };
+		A90610D42B634C8E00EE61D2 /* UserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
+		A90610D62B634D6D00EE61D2 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		A90610D82B634D7600EE61D2 /* LoginPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterProtocol.swift; sourceTree = "<group>"; };
+		A90610DB2B634E0A00EE61D2 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		A90610DD2B634E1600EE61D2 /* LoginRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterProtocol.swift; sourceTree = "<group>"; };
+		A90610E02B63500D00EE61D2 /* MoviesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAssembly.swift; sourceTree = "<group>"; };
+		A90610E32B63511900EE61D2 /* Movies.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Movies.storyboard; sourceTree = "<group>"; };
+		A90610E72B6351FA00EE61D2 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		A90610E92B6354DB00EE61D2 /* LoginConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
+		A90610EC2B6354FE00EE61D2 /* LoginConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		A90610F22B63581400EE61D2 /* LoginAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAssembly.swift; sourceTree = "<group>"; };
+		A98954822B641BB00048B954 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90610C02B6325B300EE61D2 /* Kingfisher in Frameworks */,
+				A90610BD2B63259C00EE61D2 /* MBProgressHUD in Frameworks */,
+				A90610BA2B63257F00EE61D2 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +139,11 @@
 		A90610842B631ED500EE61D2 /* RetoSoftekMovies */ = {
 			isa = PBXGroup;
 			children = (
+				A98954812B641B340048B954 /* Base */,
+				A90610C82B63387000EE61D2 /* Model */,
+				A90610C12B63378D00EE61D2 /* Modules */,
 				A90610852B631ED500EE61D2 /* AppDelegate.swift */,
 				A90610872B631ED500EE61D2 /* SceneDelegate.swift */,
-				A90610892B631ED500EE61D2 /* ViewController.swift */,
 				A906108B2B631ED500EE61D2 /* Main.storyboard */,
 				A90610912B631ED700EE61D2 /* Assets.xcassets */,
 				A90610932B631ED700EE61D2 /* LaunchScreen.storyboard */,
@@ -130,6 +170,132 @@
 			path = RetoSoftekMoviesUITests;
 			sourceTree = "<group>";
 		};
+		A90610C12B63378D00EE61D2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A90610DA2B634DBA00EE61D2 /* Movies */,
+				A90610C22B63379500EE61D2 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A90610C22B63379500EE61D2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A90610F12B63580500EE61D2 /* Assembly */,
+				A90610C62B63381900EE61D2 /* Configurator */,
+				A90610C72B63382700EE61D2 /* Router */,
+				A90610C52B6337C900EE61D2 /* Presenter */,
+				A90610C42B6337C200EE61D2 /* Interactor */,
+				A90610C32B6337A300EE61D2 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A90610C32B6337A300EE61D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A90610892B631ED500EE61D2 /* LoginViewController.swift */,
+				A90610CD2B634B2700EE61D2 /* LoginViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A90610C42B6337C200EE61D2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A90610CF2B634C0600EE61D2 /* LoginInteractor.swift */,
+				A90610D12B634C1100EE61D2 /* LoginInteractorProtocol.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A90610C52B6337C900EE61D2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A90610D62B634D6D00EE61D2 /* LoginPresenter.swift */,
+				A90610D82B634D7600EE61D2 /* LoginPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A90610C62B63381900EE61D2 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				A90610E92B6354DB00EE61D2 /* LoginConfigurator.swift */,
+				A90610EC2B6354FE00EE61D2 /* LoginConfiguratorProtocol.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		A90610C72B63382700EE61D2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A90610DB2B634E0A00EE61D2 /* LoginRouter.swift */,
+				A90610DD2B634E1600EE61D2 /* LoginRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A90610C82B63387000EE61D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A90610D32B634C7D00EE61D2 /* Request */,
+				A90610C92B63389300EE61D2 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A90610D32B634C7D00EE61D2 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				A90610D42B634C8E00EE61D2 /* UserRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		A90610DA2B634DBA00EE61D2 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				A90610DF2B634FF400EE61D2 /* Assembly */,
+				A90610E22B6350F800EE61D2 /* View */,
+				A90610E32B63511900EE61D2 /* Movies.storyboard */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		A90610DF2B634FF400EE61D2 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				A90610E02B63500D00EE61D2 /* MoviesAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A90610E22B6350F800EE61D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A90610E72B6351FA00EE61D2 /* MoviesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A90610F12B63580500EE61D2 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				A90610F22B63581400EE61D2 /* LoginAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A98954812B641B340048B954 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A98954822B641BB00048B954 /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +312,11 @@
 			dependencies = (
 			);
 			name = RetoSoftekMovies;
+			packageProductDependencies = (
+				A90610B92B63257F00EE61D2 /* Alamofire */,
+				A90610BC2B63259C00EE61D2 /* MBProgressHUD */,
+				A90610BF2B6325B300EE61D2 /* Kingfisher */,
+			);
 			productName = RetoSoftekMovies;
 			productReference = A90610822B631ED500EE61D2 /* RetoSoftekMovies.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +389,11 @@
 				Base,
 			);
 			mainGroup = A90610792B631ED500EE61D2;
+			packageReferences = (
+				A90610B82B63257F00EE61D2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A90610BB2B63259C00EE61D2 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				A90610BE2B6325B300EE61D2 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A90610832B631ED500EE61D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,6 +413,7 @@
 				A90610952B631ED700EE61D2 /* LaunchScreen.storyboard in Resources */,
 				A90610922B631ED700EE61D2 /* Assets.xcassets in Resources */,
 				A906108D2B631ED500EE61D2 /* Main.storyboard in Resources */,
+				A90610E42B63511900EE61D2 /* Movies.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +438,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A906108A2B631ED500EE61D2 /* ViewController.swift in Sources */,
+				A90610E12B63500D00EE61D2 /* MoviesAssembly.swift in Sources */,
+				A906108A2B631ED500EE61D2 /* LoginViewController.swift in Sources */,
 				A90610862B631ED500EE61D2 /* AppDelegate.swift in Sources */,
+				A90610DC2B634E0A00EE61D2 /* LoginRouter.swift in Sources */,
+				A90610D52B634C8E00EE61D2 /* UserRequest.swift in Sources */,
+				A90610D02B634C0600EE61D2 /* LoginInteractor.swift in Sources */,
+				A98954832B641BB00048B954 /* BaseNavigationController.swift in Sources */,
+				A90610ED2B6354FE00EE61D2 /* LoginConfiguratorProtocol.swift in Sources */,
+				A90610F32B63581400EE61D2 /* LoginAssembly.swift in Sources */,
+				A90610D92B634D7600EE61D2 /* LoginPresenterProtocol.swift in Sources */,
+				A90610D72B634D6D00EE61D2 /* LoginPresenter.swift in Sources */,
+				A90610DE2B634E1600EE61D2 /* LoginRouterProtocol.swift in Sources */,
 				A90610902B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld in Sources */,
+				A90610CA2B63389300EE61D2 /* UserModel.swift in Sources */,
+				A90610E82B6351FA00EE61D2 /* MoviesViewController.swift in Sources */,
+				A90610CE2B634B2700EE61D2 /* LoginViewProtocol.swift in Sources */,
+				A90610D22B634C1100EE61D2 /* LoginInteractorProtocol.swift in Sources */,
+				A90610EA2B6354DB00EE61D2 /* LoginConfigurator.swift in Sources */,
 				A90610882B631ED500EE61D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,8 +644,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,8 +672,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -613,6 +803,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A90610B82B63257F00EE61D2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		A90610BB2B63259C00EE61D2 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		A90610BE2B6325B300EE61D2 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A90610B92B63257F00EE61D2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90610B82B63257F00EE61D2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A90610BC2B63259C00EE61D2 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90610BB2B63259C00EE61D2 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		A90610BF2B6325B300EE61D2 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90610BE2B6325B300EE61D2 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A906108E2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld */ = {
