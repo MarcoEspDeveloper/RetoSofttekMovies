@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		A90610862B631ED500EE61D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610852B631ED500EE61D2 /* AppDelegate.swift */; };
 		A90610882B631ED500EE61D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610872B631ED500EE61D2 /* SceneDelegate.swift */; };
-		A906108A2B631ED500EE61D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610892B631ED500EE61D2 /* ViewController.swift */; };
-		A906108D2B631ED500EE61D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A906108B2B631ED500EE61D2 /* Main.storyboard */; };
+		A906108A2B631ED500EE61D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610892B631ED500EE61D2 /* LoginViewController.swift */; };
+		A906108D2B631ED500EE61D2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A906108B2B631ED500EE61D2 /* Login.storyboard */; };
 		A90610902B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A906108E2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld */; };
 		A90610922B631ED700EE61D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90610912B631ED700EE61D2 /* Assets.xcassets */; };
 		A90610952B631ED700EE61D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90610932B631ED700EE61D2 /* LaunchScreen.storyboard */; };
@@ -20,6 +20,7 @@
 		A90610BA2B63257F00EE61D2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A90610B92B63257F00EE61D2 /* Alamofire */; };
 		A90610BD2B63259C00EE61D2 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = A90610BC2B63259C00EE61D2 /* MBProgressHUD */; };
 		A90610C02B6325B300EE61D2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A90610BF2B6325B300EE61D2 /* Kingfisher */; };
+		A90610CA2B63389300EE61D2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90610C92B63389300EE61D2 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +44,8 @@
 		A90610822B631ED500EE61D2 /* RetoSoftekMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoSoftekMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90610852B631ED500EE61D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A90610872B631ED500EE61D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A90610892B631ED500EE61D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A906108C2B631ED500EE61D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A90610892B631ED500EE61D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A906108C2B631ED500EE61D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		A906108F2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RetoSoftekMovies.xcdatamodel; sourceTree = "<group>"; };
 		A90610912B631ED700EE61D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A90610942B631ED700EE61D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 		A90610A52B631ED700EE61D2 /* RetoSoftekMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetoSoftekMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90610A92B631ED700EE61D2 /* RetoSoftekMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoSoftekMoviesUITests.swift; sourceTree = "<group>"; };
 		A90610AB2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoSoftekMoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A90610C92B63389300EE61D2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +109,10 @@
 		A90610842B631ED500EE61D2 /* RetoSoftekMovies */ = {
 			isa = PBXGroup;
 			children = (
+				A90610C82B63387000EE61D2 /* Model */,
+				A90610C12B63378D00EE61D2 /* Modules */,
 				A90610852B631ED500EE61D2 /* AppDelegate.swift */,
 				A90610872B631ED500EE61D2 /* SceneDelegate.swift */,
-				A90610892B631ED500EE61D2 /* ViewController.swift */,
-				A906108B2B631ED500EE61D2 /* Main.storyboard */,
 				A90610912B631ED700EE61D2 /* Assets.xcassets */,
 				A90610932B631ED700EE61D2 /* LaunchScreen.storyboard */,
 				A90610962B631ED700EE61D2 /* Info.plist */,
@@ -134,6 +136,71 @@
 				A90610AB2B631ED700EE61D2 /* RetoSoftekMoviesUITestsLaunchTests.swift */,
 			);
 			path = RetoSoftekMoviesUITests;
+			sourceTree = "<group>";
+		};
+		A90610C12B63378D00EE61D2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A90610C22B63379500EE61D2 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A90610C22B63379500EE61D2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A90610C62B63381900EE61D2 /* Configurator */,
+				A90610C72B63382700EE61D2 /* Router */,
+				A90610C52B6337C900EE61D2 /* Presenter */,
+				A90610C42B6337C200EE61D2 /* Interactor */,
+				A90610C32B6337A300EE61D2 /* View */,
+				A906108B2B631ED500EE61D2 /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A90610C32B6337A300EE61D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A90610892B631ED500EE61D2 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A90610C42B6337C200EE61D2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A90610C52B6337C900EE61D2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A90610C62B63381900EE61D2 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		A90610C72B63382700EE61D2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A90610C82B63387000EE61D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A90610C92B63389300EE61D2 /* UserModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +319,7 @@
 			files = (
 				A90610952B631ED700EE61D2 /* LaunchScreen.storyboard in Resources */,
 				A90610922B631ED700EE61D2 /* Assets.xcassets in Resources */,
-				A906108D2B631ED500EE61D2 /* Main.storyboard in Resources */,
+				A906108D2B631ED500EE61D2 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +344,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A906108A2B631ED500EE61D2 /* ViewController.swift in Sources */,
+				A906108A2B631ED500EE61D2 /* LoginViewController.swift in Sources */,
 				A90610862B631ED500EE61D2 /* AppDelegate.swift in Sources */,
 				A90610902B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld in Sources */,
+				A90610CA2B63389300EE61D2 /* UserModel.swift in Sources */,
 				A90610882B631ED500EE61D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,12 +385,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A906108B2B631ED500EE61D2 /* Main.storyboard */ = {
+		A906108B2B631ED500EE61D2 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A906108C2B631ED500EE61D2 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		A90610932B631ED700EE61D2 /* LaunchScreen.storyboard */ = {
