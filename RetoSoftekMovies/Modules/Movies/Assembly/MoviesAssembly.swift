@@ -12,7 +12,8 @@ class MoviesAssembly {
     
     static func build() -> UIViewController {
         
-        let navController = UIStoryboard(name: "Movies", bundle: nil).instantiateViewController(withIdentifier: "MoviesNavigation")
+        let storyboard = UIStoryboard(name: "Movies", bundle: nil)
+        let navController = storyboard.instantiateViewController(withIdentifier: "MoviesNavigation")
         
         return navController
     }
