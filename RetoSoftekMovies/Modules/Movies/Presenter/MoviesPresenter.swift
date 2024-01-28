@@ -46,7 +46,7 @@ class MoviesPresenter: MoviesPresenterProtocol {
         
         let savedMovies = DataManager.shared.movies()
         
-        if savedMovies.count > 0 {
+        if !savedMovies.isEmpty {
             
             for savedMovie in savedMovies {
                 
@@ -118,7 +118,7 @@ class MoviesPresenter: MoviesPresenterProtocol {
     
     func saveMovie(movie: MovieModel) {
         
-        let movieToSave = DataManager.shared.movie(
+        _ = DataManager.shared.movie(
             id: movie.id ?? 0,
             title: movie.title ?? "",
             original_title: movie.original_title ?? "",

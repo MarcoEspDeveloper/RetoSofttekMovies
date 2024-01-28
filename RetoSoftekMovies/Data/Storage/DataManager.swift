@@ -15,6 +15,7 @@ class DataManager {
     lazy var persistentContainer: NSPersistentContainer = {
         
         let container = NSPersistentContainer(name: "RetoSoftekMovies")
+        container.viewContext.mergePolicy = NSMergePolicy(merge: .mergeByPropertyObjectTrumpMergePolicyType)
         
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             
