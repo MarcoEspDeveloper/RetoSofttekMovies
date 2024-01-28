@@ -128,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="-512" y="51"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail Movie View Controller-->
         <scene sceneID="sB3-36-TF5">
             <objects>
-                <viewController storyboardIdentifier="DetailMovieViewController" id="X9m-9M-IVK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailMovieViewController" id="X9m-9M-IVK" customClass="DetailMovieViewController" customModule="RetoSoftekMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="my3-Bf-kd9">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -229,6 +229,13 @@
                             <constraint firstItem="WNW-9d-o03" firstAttribute="leading" secondItem="bsR-Dm-7Zl" secondAttribute="leading" id="ier-Dl-2fZ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="movieImage" destination="kml-VG-111" id="HNX-qF-42G"/>
+                        <outlet property="overviewLabel" destination="uH5-PN-zSy" id="4Ua-mj-Dwo"/>
+                        <outlet property="releaseDateLabel" destination="dXQ-HG-53v" id="MBk-0b-lnk"/>
+                        <outlet property="titleLabel" destination="c4e-2Y-UEJ" id="6x6-JV-W5B"/>
+                        <outlet property="voteAverageLabel" destination="SVu-LG-t9H" id="e4n-Je-uh2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qyd-Or-HuF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

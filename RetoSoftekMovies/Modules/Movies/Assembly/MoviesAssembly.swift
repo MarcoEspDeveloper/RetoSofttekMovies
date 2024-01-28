@@ -17,4 +17,13 @@ class MoviesAssembly {
         
         return navController
     }
+    
+    static func build(movie: MovieViewModel) -> UIViewController {
+        
+        let storyboard = UIStoryboard(name: "Movies", bundle: nil)
+        let detailMovieViewController = storyboard.instantiateViewController(withIdentifier: "DetailMovieViewController") as! DetailMovieViewController
+        detailMovieViewController.movieViewModel = movie
+        
+        return detailMovieViewController
+    }
 }

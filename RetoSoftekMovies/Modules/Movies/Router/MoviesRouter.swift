@@ -19,8 +19,11 @@ class MoviesRouter {
 
 extension MoviesRouter: MoviesRouterProtocol {
     
-    func goToMovieDetail(originViewController: MoviesViewController, movieViewModel: MovieViewModel) {
+    func goToMovieDetail(movieViewModel: MovieViewModel) {
         
+        let originViewController = self.moviesViewProtocol as! MoviesViewController
+        let destinyViewController = MoviesAssembly.build(movie: movieViewModel)
         
+        originViewController.navigationController?.pushViewController(destinyViewController, animated: true)
     }
 }

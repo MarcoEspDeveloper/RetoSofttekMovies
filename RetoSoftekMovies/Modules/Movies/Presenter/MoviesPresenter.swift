@@ -77,7 +77,7 @@ class MoviesPresenter: MoviesPresenterProtocol {
                                        releaseDate: movie.release_date,
                                        overview: movie.overview)
         
-        router?.goToMovieDetail(originViewController: moviesView as! MoviesViewController, movieViewModel: movieViewModel)
+        router?.goToMovieDetail(movieViewModel: movieViewModel)
     }
     
     func getMovies() -> [MovieModel] {

@@ -43,6 +43,7 @@
 		A9AF72652B64B08D004AFBCC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF72642B64B08D004AFBCC /* DataManager.swift */; };
 		A9AF72682B64B0F4004AFBCC /* MoviesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF72672B64B0F4004AFBCC /* MoviesResponse.swift */; };
 		A9AF726A2B64B122004AFBCC /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF72692B64B122004AFBCC /* MovieModel.swift */; };
+		A9CCAA022B66DC9E001A12D4 /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CCAA012B66DC9E001A12D4 /* DetailMovieViewController.swift */; };
 		A9D008832B65E65E00724084 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D008822B65E65E00724084 /* MovieViewModel.swift */; };
 		A9D008892B65E7D900724084 /* MoviesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D008882B65E7D900724084 /* MoviesPresenter.swift */; };
 		A9D0088B2B65E7ED00724084 /* MoviesPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D0088A2B65E7ED00724084 /* MoviesPresenterProtocol.swift */; };
@@ -113,6 +114,7 @@
 		A9AF72642B64B08D004AFBCC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		A9AF72672B64B0F4004AFBCC /* MoviesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesResponse.swift; sourceTree = "<group>"; };
 		A9AF72692B64B122004AFBCC /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		A9CCAA012B66DC9E001A12D4 /* DetailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
 		A9D008822B65E65E00724084 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		A9D008882B65E7D900724084 /* MoviesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPresenter.swift; sourceTree = "<group>"; };
 		A9D0088A2B65E7ED00724084 /* MoviesPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPresenterProtocol.swift; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 				A9D0089E2B6603A900724084 /* Cell */,
 				A90610E72B6351FA00EE61D2 /* MoviesViewController.swift */,
 				A98954842B644D390048B954 /* MoviesViewProtocol.swift */,
+				A9CCAA012B66DC9E001A12D4 /* DetailMovieViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -622,6 +625,7 @@
 				A9D008832B65E65E00724084 /* MovieViewModel.swift in Sources */,
 				A98954882B6451A30048B954 /* Constants.swift in Sources */,
 				A98954852B644D390048B954 /* MoviesViewProtocol.swift in Sources */,
+				A9CCAA022B66DC9E001A12D4 /* DetailMovieViewController.swift in Sources */,
 				A90610DE2B634E1600EE61D2 /* LoginRouterProtocol.swift in Sources */,
 				A90610902B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld in Sources */,
 				A90610CA2B63389300EE61D2 /* UserModel.swift in Sources */,

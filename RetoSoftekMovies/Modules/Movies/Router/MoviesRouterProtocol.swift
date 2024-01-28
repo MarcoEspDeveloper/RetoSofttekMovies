@@ -9,5 +9,5 @@ import Foundation
 
 protocol MoviesRouterProtocol {
     
-    func goToMovieDetail(originViewController: MoviesViewController, movieViewModel: MovieViewModel)
+    func goToMovieDetail(movieViewModel: MovieViewModel)
 }

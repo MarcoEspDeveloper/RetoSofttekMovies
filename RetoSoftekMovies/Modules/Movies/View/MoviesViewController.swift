@@ -26,6 +26,15 @@ class MoviesViewController: UIViewController {
         self.configurator = MoviesConfigurator()
         configurator?.configure(viewController: self)
         
+        self.setupView()
+    }
+}
+
+// MARK: - General Functions
+extension MoviesViewController {
+    
+    func setupView() {
+        
         let movieSearchToolBar = UIToolbar()
         let doneBtn = UIBarButtonItem(title: "Listo", style: .plain, target: self, action: #selector(handleViewTap))
         let flexSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
@@ -66,8 +75,8 @@ extension MoviesViewController: UISearchBarDelegate {
         moviesTableView.reloadData()
     }
     
-    func searchBarCancelButtonClicked(_ searchBar: UISearchBar)
-    {
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        
         searchBar.resignFirstResponder()
         moviesSearchBar.endEditing(true)
         isSearching = false
@@ -153,6 +162,7 @@ extension MoviesViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
+// MARK: - View Protrocol Implementation
 extension MoviesViewController: MoviesViewProtocol {
     
     func showBasicAlert(title: String?, message: String?) {
