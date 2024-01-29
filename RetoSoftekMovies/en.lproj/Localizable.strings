@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  RetoSoftekMovies
+
+  Created by Marco Antonio  on 28/01/2024.
+  
+*/
+
+// Error messages
+"INTERNET_ERROR_MESSAGE" = "No hay conexión a internet.";
+"GENERAL_ERROR_MESSAGE" = "Hubo un error desconocido.";
