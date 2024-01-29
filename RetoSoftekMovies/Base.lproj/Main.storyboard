@@ -103,6 +103,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginButton" destination="1ZA-Eh-ouJ" id="nPJ-XI-MWQ"/>
                         <outlet property="passwordTextField" destination="7wa-vQ-bx7" id="rEm-dh-nZY"/>
                         <outlet property="userTextField" destination="FFq-pF-Ixm" id="CQh-xG-65b"/>
                     </connections>

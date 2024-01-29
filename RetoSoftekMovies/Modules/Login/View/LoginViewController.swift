@@ -11,6 +11,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var userTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var loginButton: UIButton!
     
     var presenter: LoginPresenterProtocol?
     var configurator: LoginConfiguratorProtocol?
@@ -33,6 +34,8 @@ extension LoginViewController {
         
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleViewTap)))
         view.isUserInteractionEnabled = true
+        
+        self.loginButton.isEnabled = false
     }
     
     @objc func handleViewTap() {
@@ -43,6 +46,17 @@ extension LoginViewController {
     @IBAction func tapLoginButton(_ sender: Any) {
         
         self.presenter?.goToValidateUser(userName: self.userTextField.text, userPassword: self.passwordTextField.text)
+    }
+}
+
+// MARK: - UITextField Delegate
+extension LoginViewController: UITextFieldDelegate {
+    
+    func textFieldDidChangeSelection(_ textField: UITextField) {
+        
+        let isLoginButtonEnable = self.presenter?.validationEmptyFields(userText: self.userTextField.text, passText: self.passwordTextField.text)
+        
+        self.loginButton.isEnabled = isLoginButtonEnable ?? false
     }
 }
 

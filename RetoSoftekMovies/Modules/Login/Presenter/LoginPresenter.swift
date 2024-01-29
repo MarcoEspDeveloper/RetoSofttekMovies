@@ -28,8 +28,23 @@ class LoginPresenter: LoginPresenterProtocol {
             self.loginView.showNextModule()
         } else {
             
-            loginView.showBasicAlert(title: "Error", message: "El usuario y/o la contraseña son incorrectos.")
+            loginView.showBasicAlert(title: NSLocalizedString("ERROR_TITLE", comment: ""), message: NSLocalizedString("WRONG_USER_PASS_MESSAGE", comment: ""))
         }
+    }
+    
+    func validationEmptyFields(userText: String?, passText: String?) -> Bool {
+        
+        guard let userString = userText, let passString = passText else {
+            
+            return false
+        }
+        
+        if !userString.isEmpty && !passString.isEmpty {
+            
+            return true
+        }
+        
+        return false
     }
     
     func goToMovies() {

@@ -26,6 +26,10 @@ class MoviesViewController: UIViewController {
         self.configurator = MoviesConfigurator()
         configurator?.configure(viewController: self)
         
+        DispatchQueue.main.async {
+            MBProgressHUD.showAdded(to: self.view, animated: true)
+        }
+        
         self.setupView()
     }
 }
@@ -43,10 +47,6 @@ extension MoviesViewController {
         
         moviesSearchBar.returnKeyType = .done
         moviesSearchBar.showsCancelButton = true
-        
-        DispatchQueue.main.async {
-            MBProgressHUD.showAdded(to: self.view, animated: true)
-        }
         
         moviesTableView.tableFooterView?.isHidden = true
         
@@ -172,10 +172,6 @@ extension MoviesViewController: MoviesViewProtocol {
         }
         
         self.presenter?.goToErrorPopUp(title: title ?? "", message: message ?? "")
-        
-        /*let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Aceptar", style: UIAlertAction.Style.default, handler: nil))
-        self.present(alert, animated: true, completion: nil)*/
     }
     
     func showMovieList(fromSaved: Bool) {
