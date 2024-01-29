@@ -28,4 +28,13 @@ class MoviesAssembly {
         
         return detailMovieViewController
     }
+    
+    // MARK: - Build Alert Messages
+    static func build(title: String, message: String) -> UIAlertController {
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Aceptar", style: UIAlertAction.Style.default, handler: nil))
+        
+        return alert
+    }
 }

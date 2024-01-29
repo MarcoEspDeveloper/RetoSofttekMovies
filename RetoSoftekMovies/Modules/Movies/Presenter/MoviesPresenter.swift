@@ -129,4 +129,9 @@ class MoviesPresenter: MoviesPresenterProtocol {
         
         DataManager.shared.save()
     }
+    
+    func goToErrorPopUp(title: String, message: String) {
+        
+        self.router?.showErrorPopUp(title: title, message: message)
+    }
 }

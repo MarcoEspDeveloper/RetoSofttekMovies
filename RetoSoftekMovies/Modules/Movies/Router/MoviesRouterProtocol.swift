@@ -10,4 +10,5 @@ import Foundation
 protocol MoviesRouterProtocol {
     
     func goToMovieDetail(movieViewModel: MovieViewModel)
+    func showErrorPopUp(title: String, message: String)
 }

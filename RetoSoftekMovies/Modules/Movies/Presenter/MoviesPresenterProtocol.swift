@@ -24,4 +24,5 @@ protocol MoviesPresenterProtocol {
     func saveMovie(movie: MovieModel)
     
     func goToDetail(movie: MovieModel)
+    func goToErrorPopUp(title: String, message: String)
 }

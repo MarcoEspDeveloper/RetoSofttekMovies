@@ -26,4 +26,11 @@ extension MoviesRouter: MoviesRouterProtocol {
         
         originViewController.navigationController?.pushViewController(destinyViewController, animated: true)
     }
+    
+    func showErrorPopUp(title: String, message: String) {
+        
+        let alertVC = MoviesAssembly.build(title: title, message: message)
+        let originViewController = self.moviesViewProtocol as! MoviesViewController
+        originViewController.present(alertVC, animated: true, completion: nil)
+    }
 }
