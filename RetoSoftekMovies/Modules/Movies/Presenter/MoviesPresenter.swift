@@ -66,7 +66,7 @@ class MoviesPresenter: MoviesPresenterProtocol {
             moviesView.showMovieList(fromSaved: true)
         }
         
-        moviesView.showBasicAlert(title: "Error", message: error.description)
+        moviesView.showBasicAlert(title: NSLocalizedString("ERROR_TITLE", comment: ""), message: error.description)
     }
     
     func goToDetail(movie: MovieModel) {
