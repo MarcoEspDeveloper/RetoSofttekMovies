@@ -32,6 +32,21 @@ class LoginPresenter: LoginPresenterProtocol {
         }
     }
     
+    func validationEmptyFields(userText: String?, passText: String?) -> Bool {
+        
+        guard let userString = userText, let passString = passText else {
+            
+            return false
+        }
+        
+        if !userString.isEmpty && !passString.isEmpty {
+            
+            return true
+        }
+        
+        return false
+    }
+    
     func goToMovies() {
         
         self.router?.goToMovies()
