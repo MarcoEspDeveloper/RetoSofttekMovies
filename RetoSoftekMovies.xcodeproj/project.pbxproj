@@ -44,6 +44,8 @@
 		A9AF72682B64B0F4004AFBCC /* MoviesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF72672B64B0F4004AFBCC /* MoviesResponse.swift */; };
 		A9AF726A2B64B122004AFBCC /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF72692B64B122004AFBCC /* MovieModel.swift */; };
 		A9CCAA022B66DC9E001A12D4 /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CCAA012B66DC9E001A12D4 /* DetailMovieViewController.swift */; };
+		A9CCAA052B6723B0001A12D4 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = A9CCAA042B6723B0001A12D4 /* Reachability */; };
+		A9CCAA082B672E77001A12D4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9CCAA0A2B672E77001A12D4 /* Localizable.strings */; };
 		A9D008832B65E65E00724084 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D008822B65E65E00724084 /* MovieViewModel.swift */; };
 		A9D008892B65E7D900724084 /* MoviesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D008882B65E7D900724084 /* MoviesPresenter.swift */; };
 		A9D0088B2B65E7ED00724084 /* MoviesPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D0088A2B65E7ED00724084 /* MoviesPresenterProtocol.swift */; };
@@ -115,6 +117,8 @@
 		A9AF72672B64B0F4004AFBCC /* MoviesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesResponse.swift; sourceTree = "<group>"; };
 		A9AF72692B64B122004AFBCC /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		A9CCAA012B66DC9E001A12D4 /* DetailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
+		A9CCAA092B672E77001A12D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9CCAA0B2B672F32001A12D4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A9D008822B65E65E00724084 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		A9D008882B65E7D900724084 /* MoviesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPresenter.swift; sourceTree = "<group>"; };
 		A9D0088A2B65E7ED00724084 /* MoviesPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPresenterProtocol.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90610C02B6325B300EE61D2 /* Kingfisher in Frameworks */,
+				A9CCAA052B6723B0001A12D4 /* Reachability in Frameworks */,
 				A90610BD2B63259C00EE61D2 /* MBProgressHUD in Frameworks */,
 				A90610BA2B63257F00EE61D2 /* Alamofire in Frameworks */,
 			);
@@ -191,6 +196,7 @@
 				A906108B2B631ED500EE61D2 /* Main.storyboard */,
 				A90610912B631ED700EE61D2 /* Assets.xcassets */,
 				A90610932B631ED700EE61D2 /* LaunchScreen.storyboard */,
+				A9CCAA0A2B672E77001A12D4 /* Localizable.strings */,
 				A90610962B631ED700EE61D2 /* Info.plist */,
 				A906108E2B631ED500EE61D2 /* RetoSoftekMovies.xcdatamodeld */,
 			);
@@ -475,6 +481,7 @@
 				A90610B92B63257F00EE61D2 /* Alamofire */,
 				A90610BC2B63259C00EE61D2 /* MBProgressHUD */,
 				A90610BF2B6325B300EE61D2 /* Kingfisher */,
+				A9CCAA042B6723B0001A12D4 /* Reachability */,
 			);
 			productName = RetoSoftekMovies;
 			productReference = A90610822B631ED500EE61D2 /* RetoSoftekMovies.app */;
@@ -546,12 +553,14 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = A90610792B631ED500EE61D2;
 			packageReferences = (
 				A90610B82B63257F00EE61D2 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				A90610BB2B63259C00EE61D2 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
 				A90610BE2B6325B300EE61D2 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				A9CCAA032B6723AF001A12D4 /* XCRemoteSwiftPackageReference "Reachability" */,
 			);
 			productRefGroup = A90610832B631ED500EE61D2 /* Products */;
 			projectDirPath = "";
@@ -569,6 +578,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9CCAA082B672E77001A12D4 /* Localizable.strings in Resources */,
 				A90610952B631ED700EE61D2 /* LaunchScreen.storyboard in Resources */,
 				A90610922B631ED700EE61D2 /* Assets.xcassets in Resources */,
 				A906108D2B631ED500EE61D2 /* Main.storyboard in Resources */,
@@ -689,6 +699,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		A9CCAA0A2B672E77001A12D4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CCAA092B672E77001A12D4 /* en */,
+				A9CCAA0B2B672F32001A12D4 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -697,6 +716,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -760,6 +780,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1009,6 +1030,14 @@
 				minimumVersion = 7.10.2;
 			};
 		};
+		A9CCAA032B6723AF001A12D4 /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1026,6 +1055,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A90610BE2B6325B300EE61D2 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		A9CCAA042B6723B0001A12D4 /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9CCAA032B6723AF001A12D4 /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
 		};
 /* End XCSwiftPackageProductDependency section */
 

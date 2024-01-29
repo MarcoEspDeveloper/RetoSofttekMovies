@@ -27,7 +27,7 @@ class MoviesRepository: MoviesRepositoryProtocol {
             case .success(let movies):
                 guard let moviesResponse = try? JSONDecoder().decode(MoviesResponse?.self, from: movies as! Data) else {
                     
-                    let newError = ErrorModel(code: 0, description: "Error desconocido")
+                    let newError = ErrorModel(code: 0, description: NSLocalizedString("GENERAL_ERROR_MESSAGE", comment: ""))
                     
                     completion(nil, newError)
                     

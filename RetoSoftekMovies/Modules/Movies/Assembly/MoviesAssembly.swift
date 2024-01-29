@@ -10,6 +10,7 @@ import UIKit
 
 class MoviesAssembly {
     
+    // MARK: - Build MoviesViewController wih navigation
     static func build() -> UIViewController {
         
         let storyboard = UIStoryboard(name: "Movies", bundle: nil)
@@ -18,6 +19,7 @@ class MoviesAssembly {
         return navController
     }
     
+    // MARK: - Build DetailMovieViewController
     static func build(movie: MovieViewModel) -> UIViewController {
         
         let storyboard = UIStoryboard(name: "Movies", bundle: nil)
