@@ -9,3 +9,5 @@
 // Error messages
 "INTERNET_ERROR_MESSAGE" = "No hay conexión a internet.";
 "GENERAL_ERROR_MESSAGE" = "Hubo un error desconocido.";
+"WRONG_USER_PASS_MESSAGE" = "El usuario y/o la contraseña son incorrectos.";
+"ERROR_TITLE" = "Error";

@@ -28,7 +28,7 @@ class LoginPresenter: LoginPresenterProtocol {
             self.loginView.showNextModule()
         } else {
             
-            loginView.showBasicAlert(title: "Error", message: "El usuario y/o la contraseña son incorrectos.")
+            loginView.showBasicAlert(title: NSLocalizedString("ERROR_TITLE", comment: ""), message: NSLocalizedString("WRONG_USER_PASS_MESSAGE", comment: ""))
         }
     }
     
