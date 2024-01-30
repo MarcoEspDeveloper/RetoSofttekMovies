@@ -58,7 +58,7 @@ extension DetailMovieViewController {
         
         let releaseDateTitleAttString = NSAttributedString(string: "Estreno: ", attributes: releaseDateTitleAttribute)
         
-        let releaseDateAttString = NSAttributedString(string: "\((movieViewModel?.voteAverage)!)", attributes: releaseDateAttribute)
+        let releaseDateAttString = NSAttributedString(string: "\((movieViewModel?.releaseDate)!)", attributes: releaseDateAttribute)
         
         let releaseDateFullAttString = NSMutableAttributedString()
         releaseDateFullAttString.append(releaseDateTitleAttString)
