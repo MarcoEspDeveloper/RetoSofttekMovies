@@ -92,15 +92,20 @@ extension MoviesViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        if isSearching {
+        if let countMovies = presenter?.getMovies().count, countMovies > 0 {
             
-            tableView.tableFooterView?.isHidden = true
-            footerActivityIndicator.stopAnimating()
+            if isSearching {
+                
+                tableView.tableFooterView?.isHidden = true
+                footerActivityIndicator.stopAnimating()
+                
+                return presenter?.getSearchedMovies().count ?? 0
+            }
             
-            return presenter?.getSearchedMovies().count ?? 0
+            return countMovies
         }
         
-        return presenter?.getMovies().count ?? 0
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

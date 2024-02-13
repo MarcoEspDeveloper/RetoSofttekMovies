@@ -22,8 +22,9 @@ extension LoginRouter: LoginRouterProtocol {
         
         let originViewController = self.loginViewProtocol as! LoginViewController
         let destinyViewController = MoviesAssembly.build()
+        let navController = MoviesAssembly.buildNav(viewController: destinyViewController)
         
-        originViewController.present(destinyViewController, animated: true)
+        originViewController.present(navController, animated: true)
     }
     
     func showErrorPopUp(title: String, message: String) {

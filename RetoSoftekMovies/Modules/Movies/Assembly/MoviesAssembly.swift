@@ -11,12 +11,20 @@ import UIKit
 class MoviesAssembly {
     
     // MARK: - Build MoviesViewController wih navigation
+    static func buildNav(viewController: UIViewController) -> UINavigationController {
+        
+        let navigation = UINavigationController(rootViewController: viewController)
+        navigation.modalPresentationStyle = .fullScreen
+        
+        return navigation
+    }
+    
     static func build() -> UIViewController {
         
         let storyboard = UIStoryboard(name: "Movies", bundle: nil)
-        let navController = storyboard.instantiateViewController(withIdentifier: "MoviesNavigation")
+        let moviesViewController = storyboard.instantiateViewController(withIdentifier: "MoviesViewController")
         
-        return navController
+        return moviesViewController
     }
     
     // MARK: - Build DetailMovieViewController
